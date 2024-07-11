@@ -1,10 +1,10 @@
 import Foundation
 import ARKit
 
-class Lamp: VirtualObject {
+class Bathroom: VirtualObject {
 
 	override init() {
-		super.init(modelName: "bathroom2", fileExtension: "scn", thumbImageFilename: "lamp", title: "Lamp")
+		super.init(modelName: "bathroom", fileExtension: "scn", thumbImageFilename: "lamp", title: "Lamp")
 	}
 
 	required init?(coder aDecoder: NSCoder) {

@@ -35,17 +35,11 @@ class VirtualObjectSelectionViewController: UIViewController, UITableViewDataSou
 	func getObject(index: Int) -> VirtualObject {
 		switch index {
 		case 0:
-			return Candle()
+			return Bathroom()
 		case 1:
-			return Cup()
-		case 2:
 			return Vase()
-		case 3:
-			return Lamp()
-		case 4:
-			return Chair()
 		default:
-			return Cup()
+			return Bathroom()
 		}
 	}
 
