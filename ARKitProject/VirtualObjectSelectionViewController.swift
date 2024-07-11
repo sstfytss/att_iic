@@ -43,7 +43,7 @@ class VirtualObjectSelectionViewController: UIViewController, UITableViewDataSou
 		}
 	}
 
-	static let COUNT_OBJECTS = 5
+	static let COUNT_OBJECTS = 2
 
 	// MARK: - UITableViewDelegate
 	func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
