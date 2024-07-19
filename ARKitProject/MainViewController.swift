@@ -521,7 +521,7 @@ extension MainViewController: ARSCNViewDelegate {
 
 			// If light estimation is enabled, update the intensity of the model's lights and the environment map
 			if let lightEstimate = self.session.currentFrame?.lightEstimate {
-				self.sceneView.enableEnvironmentMapWithIntensity(lightEstimate.ambientIntensity / 40)
+				self.sceneView.enableEnvironmentMapWithIntensity(lightEstimate.ambientIntensity / 130)
 			} else {
 				self.sceneView.enableEnvironmentMapWithIntensity(25)
 			}
